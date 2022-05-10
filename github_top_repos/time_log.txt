@@ -1,0 +1,27 @@
+22-Nov-21 16:25:43: DEBUG: Number of organizations: 200
+22-Nov-21 16:25:43: DEBUG: Start pipeline with mode='default'
+22-Nov-21 16:25:43: DEBUG: workers.organization_worker.OrganizationWorker is working
+22-Nov-21 16:25:44: DEBUG: workers.default_repository_worker_wrapper.DefaultRepositoryWorkerWrapper is working
+22-Nov-21 16:33:43: DEBUG: workers.top_filter_worker.TopFilterWorker is working
+22-Nov-21 16:33:43: DEBUG: workers.database_worker.DatabaseWorker is working
+22-Nov-21 16:33:43: DEBUG: Elapsed time is 480.39 seconds.
+22-Nov-21 16:34:43: DEBUG: Start pipeline with mode='thread'
+22-Nov-21 16:34:43: DEBUG: workers.organization_worker.OrganizationWorker is working
+22-Nov-21 16:34:44: DEBUG: workers.thread_repository_worker_wrapper.ThreadRepositoryWorkerWrapper is working
+22-Nov-21 16:36:42: DEBUG: workers.top_filter_worker.TopFilterWorker is working
+22-Nov-21 16:36:42: DEBUG: workers.database_worker.DatabaseWorker is working
+22-Nov-21 16:36:42: DEBUG: Elapsed time is 118.34 seconds.
+22-Nov-21 16:37:42: DEBUG: Start pipeline with mode='process'
+22-Nov-21 16:37:42: DEBUG: workers.organization_worker.OrganizationWorker is working
+22-Nov-21 16:37:43: DEBUG: workers.process_repository_worker_wrapper.ProcessRepositoryWorkerWrapper is working
+22-Nov-21 16:39:43: DEBUG: workers.top_filter_worker.TopFilterWorker is working
+22-Nov-21 16:39:43: DEBUG: workers.database_worker.DatabaseWorker is working
+22-Nov-21 16:39:43: DEBUG: Elapsed time is 120.9 seconds.
+22-Nov-21 16:40:43: DEBUG: Start pipeline with mode='async'
+22-Nov-21 16:40:43: DEBUG: workers.organization_worker.OrganizationWorker is working
+22-Nov-21 16:40:44: DEBUG: workers.async_repository_worker.AsyncRepositoryWorker is working
+22-Nov-21 16:41:06: DEBUG: workers.top_filter_worker.TopFilterWorker is working
+22-Nov-21 16:41:06: DEBUG: workers.database_worker.DatabaseWorker is working
+22-Nov-21 16:41:06: DEBUG: Elapsed time is 23.25 seconds.
+22-Nov-21 16:42:06: DEBUG: Results for each mode:
+{'default': 480.39, 'thread': 118.34, 'process': 120.9, 'async': 23.25}
